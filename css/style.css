@@ -19,17 +19,8 @@
     /* transition: all linear .4s; */
 
 }
-p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-}
 
-/* .main_btn:hover {
-    color: #fff;
-    background-color: #005FAC;
 
-} */
 
 /* common style start */
 .container{
@@ -40,6 +31,14 @@ p{
 img{
     display: block;
     width: 100%;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+a{
+    text-decoration: none;
 }
 /* common style end */
 
@@ -83,6 +82,11 @@ img{
 #about{
     padding: 60px 0;
 }
+.about_des{
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 50px;
+}
 
 .about_wrapper{
     display: flex;
@@ -97,4 +101,117 @@ img{
     color: #151414;
 }
 
+#about p{
+    padding-top: 24px;
+}
 /* about style end */
+
+/* plan section style start */
+
+#plan{
+    margin: 60px 0;
+}
+#plan h2{
+    padding-bottom: 50px;
+}
+.plan_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan_items{
+    padding: 0 40px;
+    width: 25%;
+}
+
+#plan .plan_items img{
+    width: 93px;
+    height: 93px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* plan section style end */
+
+#footer_banner .footer_banner_cnt{
+    height: 300px;
+    margin-bottom: 130px;
+    background-image:url(../images/gradient1.png) ;
+    border-radius: 8px;
+    text-align: left;
+    padding: 64px 69px 0;
+    
+}
+#footer_banner .bg_color{
+    background-image: url(../images/watch.png);
+}
+
+
+#footer_banner .footer_banner_cnt h2{
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+footer{
+    background-color: #151414;
+    height: 500px;
+}
+.footer_cnt{
+    text-align: left;
+    width: 50%;
+}
+
+.footer_cnt h2{
+    color: #fff;
+    padding-bottom: 16px;
+    padding-top: 130px;
+}
+.footer_cnt p{
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_wrapper a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 16px;
+}
+
+.sub_form h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.sub_form input {
+    padding: 12px 25px 12px 10px;
+    background-color:  #151414;
+    box-shadow: none;
+    border: 1px solid #fff;
+    color: #F3F3F3;font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+
+}
+.sub_form button{
+    background-color: #005FAC;
+    color: #fff;
+    display: block;
+}
+
+
+
+
