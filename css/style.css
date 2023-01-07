@@ -29,7 +29,6 @@
     margin: 0 auto;
 }
 img{
-    display: block;
     width: 100%;
 }
 p{
@@ -103,6 +102,15 @@ a{
 
 #about p{
     padding-top: 24px;
+    padding-bottom: 16px;
+    color: #444343;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 8px;
+    color: #444343;
+
 }
 /* about style end */
 
@@ -130,6 +138,17 @@ a{
     height: 93px;
     text-align: center;
     display: inline-block;
+}
+#plan .plan_items h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+#plan .plan_items p{
+    color: #737272;
 }
 
 /* plan section style end */
@@ -165,11 +184,18 @@ footer{
 .footer_cnt h2{
     color: #fff;
     padding-bottom: 16px;
-    padding-top: 130px;
+    padding-top: 120px;
+    margin-top: -16px;
 }
 .footer_cnt p{
     color: #fff;
     padding-bottom: 24px;
+}
+
+.footer_cnt .icons_img img{
+    width: 46px;
+    height: 46px;
+    padding-right: 12px;
 }
 
 .footer_wrapper{
@@ -204,6 +230,7 @@ footer{
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 16px;
+    border-radius: 8px;
 
 }
 .sub_form button{
@@ -211,6 +238,9 @@ footer{
     color: #fff;
     display: block;
 }
+
+
+
 
 
 
